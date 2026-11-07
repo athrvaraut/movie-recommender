@@ -20,7 +20,7 @@ Live Dashboard Link: [View Live App](https://movie-recommender-cc3aw56j6jvqomrwg
 
 ## 📂 Repository Structure & ML Pipeline
 
-The project is structured sequentially, reflecting a production-grade data engineering and machine learning pipeline:
+The project is built as a step-by-step pipeline, one script per stage:
 
 ```text
 ├── Data & Models/            
@@ -39,7 +39,7 @@ The project is structured sequentially, reflecting a production-grade data engin
 │   └── step10_login.py                 # User authentication and session state logic
 ├── step5_app.py                        # Main Streamlit application entry point
 ├── users.json / history.json           # Local database for user session tracking
-└── requirements.txt                    # Production environment dependencies
+└── requirements.txt                    # Python dependencies
 
 🛠️ Installation & Local Execution
 1. Clone the Workspace
